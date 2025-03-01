@@ -1,0 +1,28 @@
+{
+  "module": {
+    "name": "video",
+    "type": "feature",
+    "description": "$string:module_desc",
+    "mainElement": "VideoAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "VideoAbility",
+        "srcEntry": "./ets/videoability/VideoAbility.ets",
+        "description": "$string:VideoAbility_desc",
+        "icon": "$media:layered_image",
+        "label": "$string:VideoAbility_label",
+        "startWindowIcon": "$media:startIcon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": true
+      }
+    ]
+  }
+}

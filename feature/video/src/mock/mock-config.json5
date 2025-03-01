@@ -1,0 +1,5 @@
+{
+  "libvideo.so": {
+    "source": "src/mock/Libvideo.mock.ets"
+  }
+}

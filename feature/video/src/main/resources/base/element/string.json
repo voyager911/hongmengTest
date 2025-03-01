@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "VideoAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "VideoAbility_label",
+      "value": "label"
+    }
+  ]
+}
