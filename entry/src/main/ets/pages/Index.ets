@@ -1,10 +1,13 @@
+import { EmptyCompontent } from 'common';
+
 @Entry
 @Component
 struct Index {
   @State message: string = 'Hello World';
 
   build() {
-    RelativeContainer() {
+    Column() {
+      EmptyCompontent()
       Text(this.message)
         .id('HelloWorld')
         .fontSize($r('app.float.page_text_font_size'))
